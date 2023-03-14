@@ -8,7 +8,7 @@ Challenge your knowledge with QuizPlanet.
 
 ### Requirements
 
-- Ruby 3.2.1
+- Ruby 3.1.3
 - Postgresql
 
 ### Initial setup
