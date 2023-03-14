@@ -15,4 +15,4 @@ jobs:
       with:
         bundler-cache: true
     - name: Run Standard
-      run: bin/rake standard
+      run: bundle exec standardrb
