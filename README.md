@@ -8,37 +8,16 @@ Challenge your knowledge with QuizPlanet.
 
 ### Requirements
 
-- Ruby 3.1.3
-- Postgresql
+- Node.js ^18.15.0
 
 ### Initial setup
-
-Start postgresql server.
-
-```bash
-sudo service postgresql start
-```
-
-Copy the contents of `.env.template` file to a file named `.env` and replace the values with those consistent with your local development environment.
-
-```bash
-cp .env.template .env
-```
-
-An installation script is included with the repository that will automatically get the application setup.
-
-```bash
-bin/setup
-```
 
 ## Development
 
 Run the following to start the server.
 
 ```bash
-bin/rails server
+npm run dev
 ```
 
 ### Seeds
-
-Seed the database using either `bin/rails db:seed` or during `bin/setup`.
