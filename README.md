@@ -13,13 +13,15 @@ Challenge your knowledge with QuizPlanet.
 ### Initial setup
 1. Clone the repo
 
-2. Run ```bash npm install```
+2. Run ```bash 
+npm install```
 
 3. SignUp to [MongoDB Atlas](https://www.mongodb.com/atlas/database).
   - Create a free cluster
   - On success click connect, connect by driver, select Node and copy connection string.
 
-4. Run ```bash cp .env.template .env ```
+4. Run ```bash 
+cp .env.template .env ```
 
 6. Paste connection string into  ***MONGO_CONNECTION_STRING***
 
