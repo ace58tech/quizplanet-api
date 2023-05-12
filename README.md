@@ -40,5 +40,13 @@ Run the following to start the server.
 ```bash
 npm run dev
 ```
+### How to resolve MongooseServiceSelectionError
+![MongooseServiceSelectionError example image](./error_images/mongoose%20error.jpg)
+
+Steps to resolve the above solution
+> 1. Login into your mongoDB atlas
+> 2. Go to the **Network Access** 
+> 3. Click on *EDIT* of the ***IP Address*** with a *My IP Address* comment 
+> 4. Click on *ALLOW ACCESS FROM ANYWHERE* and click **Confirm**
 
 ### Seeds
