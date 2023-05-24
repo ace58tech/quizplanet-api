@@ -41,7 +41,7 @@ Run the following to start the server.
 npm run dev
 ```
 
-To get a clear understanding of what is to be built please refer to the ![UserStories.md File](UserStories.md)
+To get a clear understanding of what is to be built please refer to the [UserStories.md File](UserStories.md)
 
 ### How to resolve MongooseServiceSelectionError
 ![MongooseServiceSelectionError example image](./error_images/mongoose%20error.jpg)
