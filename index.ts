@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 import * as dotenv from "dotenv";
 import express, { Express, Request, Response } from "express";
+const QuestionModel = require("./src/models/Question")
 
 dotenv.config();
 
@@ -18,3 +19,12 @@ mongoose.connect(`${process.env.MONGO_CONNECTION_STRING}`)
 app.get("/", (req: Request, res: Response) =>
   res.send("Express + TypeScript Server")
 );
+
+const main = () => {
+
+  // Testing the document creation
+  QuestionModel.create({question: "What is 4 + 5", correctOption: "9", options: ["4", "9", "7", "2"]});
+  console.log("Hi")
+}
+
+main()
